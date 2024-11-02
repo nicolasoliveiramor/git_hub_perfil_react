@@ -14,6 +14,8 @@ const ReposList = ({ usuario }) => {
             .then(resJson => {
 
                 console.log(resJson)
+
+                setEstaCarregando(true)
                 
                 // Utilizando setTimeout para simular um carregamento
                 setTimeout(() => {
