@@ -16,7 +16,7 @@ function App() {
         <input
           id="buscarNomeUser"
           type="text"
-          onBlur={(e) => setNomeUsuario(e.target.value)}
+          onChange={(e) => setNomeUsuario(e.target.value)}
         />
       </div>
 
